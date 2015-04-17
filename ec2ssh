@@ -1,0 +1,9 @@
+#!/bin/bash
+get_instances() {
+  get_instances.rb $*| percol | cut -f 2
+}
+
+i=$(get_instances $*)
+if [[ -n $i ]];then
+  ssh -A ${i}
+fi
