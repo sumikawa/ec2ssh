@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 require 'aws-sdk'
 require 'pp'
-require 'pry'
 require 'inifile'
 require 'optparse'
 require 'yaml'
