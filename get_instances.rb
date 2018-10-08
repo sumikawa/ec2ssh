@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
-require 'aws-sdk'
+require 'aws-sdk-ec2'
 require 'pp'
 require 'inifile'
 require 'optparse'
